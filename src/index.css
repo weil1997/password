@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2d2039;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.password {
+  margin: 20px;
+  font-weight: 100;
+  font-size: bold;
+}
+
+.random-password {
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+.card-container {
+  margin-top: 80px;
+  max-width: 600px;
+  border: 3px solid black;
+  height: 400px;
+}
+
+.slider {
+}
